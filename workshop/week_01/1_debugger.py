@@ -3,18 +3,24 @@ Debug your first Python application with breakpoints.
 
 Learn the following techniques:
     - Set breakpoints
-    - Stepped through your program
-    - Created a watch
-    - Evaluated an expression
+    - Step through program line by line
+    - Select and evaluate an expression
 
 """
 
-a = 1
-total = 0
+from numpy import log as ln
 
-while a <= 10:
-    b = a * a
-    total = total + b
-    a = a + 1
+a = 5
+b = 8
+c = a + b
+d = 5 * c
+print('d is {}'.format(d))
 
-print('total is {}'.format(total))
+n1 = ln(2)
+print('ln(2) is {}'.format(n1))
+
+print('ln(5) is {}'.format(ln(5)))
+
+print('ln(2) + ln(5) is {}'.format(n1 + ln(5)))
+
+print('ln(2 x 5) {}'.format(ln(2*5)))

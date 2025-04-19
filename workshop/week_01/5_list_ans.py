@@ -24,4 +24,4 @@ best_offer = ask_prices[0]
 mid = 0.5 * (best_bid + best_offer)
 
 # print mid
-print(mid)
+print("mid: ", mid)
