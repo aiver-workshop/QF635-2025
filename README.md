@@ -76,9 +76,9 @@ $ pwd
 ```
 
 ## PyCharm - Integrated Development Environment (IDE)
-Download and install Anaconda from https://www.anaconda.com/
+Download and install PyCharm (Community version) from https://www.jetbrains.com/pycharm/
 
-After completing the installation:
+After completing the installation, setup course project in PyCharm by:
 1. Open the code repository by `File` -> `Open...` -> select/navigate to `working directory`
 2. Configure the Python interpreter by `File` -> `Settings...` -> `Project: qf635` -> `Python Interpreter` -> `Add Interpreter` -> `Add Local Interpreter` -> `Conda Environment` -> `Use Existing environment` -> `py311-smu`
 
