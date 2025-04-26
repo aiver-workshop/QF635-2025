@@ -64,16 +64,12 @@ Open `Git Bash` and enter the followings:
 $ cd ~
 $ mkdir smu
 $ cd smu
-$ git clone  https://github.com/aiver-workshop/QF635-2024.git
-$ cd qf635
-```
-These steps will download course repository in a folder called `~/smu/qf635`, and this is going to be our `working directory`.
+$ git clone  https://github.com/aiver-workshop/QF635-2025.git
 
-To display the full path of the working directory, type:
 ```
-$ pwd
-/c/Users/Nicholas Liew/smu/qf635
-```
+These steps will download course repository in a folder (for example `~/smu/QF635-2025`), and this is going to be our `working directory`.
+
+
 
 ## PyCharm - Integrated Development Environment (IDE)
 Download and install PyCharm (Community version) from https://www.jetbrains.com/pycharm/
